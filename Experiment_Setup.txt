@@ -1,0 +1,13 @@
+Java=21
+OS=Windows 11
+Processors=8
+Seed formula=20261029+1009*n+7919*sparsity
+Dense sizes=[20, 40, 80, 120, 160, 200, 320]
+Sparse sizes=[80, 160, 240, 320]
+Zero percentages=[50, 80, 95, 99]
+Warmups=2, repetitions=5, block=32
+Timing=System.nanoTime, multiplication only including output allocation
+Memory=approximate Java heap delta before/after each run, NOT peak RSS
+Storage=estimated payload of A, B and C, no JVM overhead
+Sparse input and output conversion excluded from timing
+Methods: baseline i-j-k, reordered i-k-j, blocked, CSR

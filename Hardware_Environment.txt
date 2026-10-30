@@ -1,0 +1,20 @@
+Assignment 2 — Hardware and software information
+
+Same laptop was used for Assignment 1 and Assignment 2 (confirmed by the student).
+
+Hardware information originally recorded for Assignment 1 (16 October 2026):
+CPU: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+Physical cores: 4
+Logical processors: 8
+Installed/available RAM reported by the previous log: 7.72 GiB
+Operating system: Windows 11
+
+Assignment 2 generated setup (30 October 2026):
+Java runtime: 21
+Operating system: Windows 11
+Logical processors available to Java: 8
+
+Provenance: CPU, core counts and RAM were documented in Assignment 1
+environment.json and reused because Assignment 2 was run on the same laptop.
+These values were not recorded again by the Assignment 2 program.
+Assignment 1: https://github.com/marcelakuczynska/BigData-Assignment1
